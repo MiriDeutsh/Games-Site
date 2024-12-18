@@ -164,7 +164,7 @@ function game_over(user, score) {
         location.href = "../pages/game.html?username=" + user;
     };
     document.querySelector("#back_to_home").onclick = function () {
-        location.href = "../../home.html?username=" + user;
+        location.href = "../../home/home.html?username=" + user;
     };
 }
 
