@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="72.png" type="image/png">
+    <title>כניסה לחשבון</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>WELCOME TO OUR SITE GAME</h1>
+        <h2>כניסה לחשבון</h2>
+        <form id="login">
+            <label for="playerName">שם משתמש</label>
+            <input type="text" id="playerName" name="playerName" required>
+            <label for="password">סיסמה</label>
+            <input type="password" id="password" name="password" required>
+            <button onclick="login()" type="button">כניסה</button>
+            <button id="btnNeuUser" onclick="SendToNewUser()">משתמש חדש?</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

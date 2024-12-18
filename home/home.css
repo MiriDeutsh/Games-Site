@@ -1,0 +1,97 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(243, 197, 212);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 4px solid black;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e3536d;
+}
+
+#score-table {
+    margin-top: 20px;
+}
+
+#score-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#score-table th, #score-table td {
+    border: 1px solid red;
+    padding: 8px;
+    text-align: center;
+}
+
+#score-table th {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.logout-button {
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    z-index: 1000; 
+}
+
+.logout-button button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 50px;
+    word-spacing: 0.5px;
+}
+
+.logout-button button:hover {
+    background-color: #e3536d;
+}

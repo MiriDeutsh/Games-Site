@@ -1,0 +1,65 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(243, 197, 212);
+}
+
+.container {
+    width: 500px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* מרכז את הטקסט */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: large;
+    color: black;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button, #submit_ {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover, #submit_:hover {
+  background-color: #e3536d;
+}
+
+p {
+    margin-top: 15px;
+}
+
+a {
+    color: RED;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}

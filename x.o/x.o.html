@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="72.png" type="image/png">
+    <title>X O GAME</title>
+    <link rel="stylesheet" href="x.o.css">
+    <script defer src="x.o.js"></script>
+</head>
+<body>
+    <h1>GAME ❌ ⭕</h1>
+    <div id="board">
+        <div class="cell" id="w1" onclick="count1(1)"></div>
+        <div class="cell" id="w2" onclick="count1(2)"></div>
+        <div class="cell" id="w3" onclick="count1(3)"></div>
+        <div class="cell" id="w4" onclick="count1(4)"></div>
+        <div class="cell" id="w5" onclick="count1(5)"></div>
+        <div class="cell" id="w6" onclick="count1(6)"></div>
+        <div class="cell" id="w7" onclick="count1(7)"></div>
+        <div class="cell" id="w8" onclick="count1(8)"></div>
+        <div class="cell" id="w9" onclick="count1(9)"></div>
+    </div>
+    <div id="winning-message" class="winning-message">
+        <div data-winning-message-text></div>
+        <button id="restartButton" onclick="restart()">Restart</button>
+    </div>
+    <div id="scores">
+        <p id="scoreX">Score X: 0</p>
+        <p id="scoreO">Score O: 0</p>
+    </div>
+    <a href="../home/home.html" id="back">RETURN TO THE MAIN PAGE</a>
+</body>
+</html>

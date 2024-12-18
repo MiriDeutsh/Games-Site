@@ -1,0 +1,143 @@
+body{
+   
+    background-color: rgb(243, 197, 212);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100vw;
+    height: 98vh;
+     z-index: -2;
+  }
+
+#runner{
+    position:  fixed;
+     width: 150px;
+     height:150px;
+}
+.up{
+    top:7%;
+    left:5%;
+}
+.down{
+    bottom:2%;
+    left:5%;
+ 
+}
+#points{
+ position: fixed;
+ font-size: 30px;  
+ font-weight: bolder;
+ top:5%;
+ left:86%;
+}
+p{
+    padding: 0;
+    display: inline;
+}#score{
+    
+    display: inline;
+   
+}
+.rock1{
+    position: relative ;
+    width: auto;
+    height: 100px; 
+    top:87vh;
+    left: 100vw;
+    animation: rock 5s linear ;
+}
+.rock2{
+    position: relative ;
+    width: auto;
+    height: 100px; 
+    top:5vh;
+    left: 100vw;
+    animation: rock 5s linear ;
+}
+.game_over{
+    
+      color: red;
+      position: absolute;
+      left: 35%;
+      top:30%;
+      background-color: white;
+      padding: 100px;
+
+}
+.over{
+   font-size: 50px;
+   font-weight: bold;
+   
+}
+#back_to_menu{
+    background-color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+    color: red;
+}
+#back_to_game{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+#back_to_home {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#back_to_home:hover {
+    background-color: #e3536d;
+}
+@keyframes rock {
+    0%{ 
+        left: 90vw;
+       
+        }
+      10%{
+            left: 80vw; 
+      }
+       20%{
+        left: 70vw;
+      }
+       30%{
+        left: 60vw;
+      }
+        40%{
+            left: 50vw;
+      }
+        50%{
+            left: 40vw;
+      }
+        60%{
+            left: 30vw;  
+      }
+      70%{
+        left: 20vw;  
+  }
+      80%{
+        left: 10vw;  
+  }
+  90%{
+    left: 0vw;  
+}
+       100%{
+        left: -10vw;
+        
+      }
+}

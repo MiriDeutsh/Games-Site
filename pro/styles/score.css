@@ -1,0 +1,50 @@
+#backround{
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 90vh; 
+   z-index: -1;
+}
+body{
+direction: rtl;
+background-color: rgb(243, 197, 212);
+}
+h1{
+  position: fixed;
+  display: inline;
+  margin-top: 10%;
+border-bottom: 2px red dotted;
+left: 40%;
+color: red; 
+ font-size: 3vw;
+  font-family:Guttman Yad-Brush;
+
+}
+#instruction{
+position: absolute;
+right: 35%;
+top:25%;
+display: block;
+font-size: 30px;
+text-align: center;
+font-style: italic;
+color: red;
+
+}
+a{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover{
+  background-color: #e3536d;
+}

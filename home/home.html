@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="72.png" type="image/png">
+    <link rel="stylesheet" href="home.css">
+    <title>דף הבית</title>
+</head>
+<body>
+  
+    <div class="logout-button">
+           <button onclick="clearAllOnLogout()">LOG OFF  FROM OUR SITE GAME</button>
+        <button onclick="clearScoresOnLogout()">RESET THE SUM OF SCORE    </button>
+    </div>
+
+    <div class="container">
+        <h1>WELCOME TO OUR SITE GAME</h1>
+        <p id="welcome-message"></p>
+        <p id="all-score"></p>
+        <div class="button-grid">
+            <div class="button" onclick="navigateTo('../הקלדה עיוורת/index.html')">BLID METHOD GAME</div>
+            <div class="button" onclick="navigateTo('../gues/gues.html')">GUESS A NUMBER GAME</div>
+            <div class="button" onclick="navigateTo('../memory/memory.html')">MEMORY GAME</div>
+            <div class="button" onclick="navigateTo('../x.o/x.o.html')">X.O GAME</div>
+            <div class="button" onclick="navigateTo('../pro/HomePage.html')">Runny-Bunny GAME</div>
+            <div class="button" onclick="navigateTo('../color/color.html')">COLORING GAME</div>
+        </div>
+        <br/>
+        <div class="button" onclick="showScore()">MY SUM OF SCORE</div>
+        <!-- טבלה לציונים -->
+        <div id="score-table" style="display: none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Game</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="score-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
